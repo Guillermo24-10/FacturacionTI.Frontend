@@ -48,6 +48,7 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 wwwroot\manifest.webmanifest
 wwwroot\sample-data\weather.json
+wwwroot\appsettings.json
 F:\Proyect_Visual\BLAZOR\FacturacionTI.Frontend\FacturacionTI.UI\wwwroot\css\app.css
 F:\Proyect_Visual\BLAZOR\FacturacionTI.Frontend\FacturacionTI.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 F:\Proyect_Visual\BLAZOR\FacturacionTI.Frontend\FacturacionTI.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -95,3 +96,4 @@ F:\Proyect_Visual\BLAZOR\FacturacionTI.Frontend\FacturacionTI.UI\wwwroot\lib\boo
 F:\Proyect_Visual\BLAZOR\FacturacionTI.Frontend\FacturacionTI.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 F:\Proyect_Visual\BLAZOR\FacturacionTI.Frontend\FacturacionTI.UI\wwwroot\manifest.webmanifest
 F:\Proyect_Visual\BLAZOR\FacturacionTI.Frontend\FacturacionTI.UI\wwwroot\sample-data\weather.json
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Frontend\FacturacionTI.UI\wwwroot\appsettings.json

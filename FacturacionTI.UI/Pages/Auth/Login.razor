@@ -1,0 +1,92 @@
+﻿@page "/login"
+@layout EmptyLayout
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
+@inject ISnackbar Snackbar
+
+<MudContainer MaxWidth="MaxWidth.Small" Class="d-flex align-center justify-center" Style="min-height: 100vh;">
+    <MudPaper Elevation="4" Class="pa-8" Style="width: 100%;">
+        <MudText Typo="Typo.h4" Align="Align.Center" Class="mb-6">
+            <MudIcon Icon="@Icons.Material.Filled.Receipt" Size="Size.Large" Class="mr-2" />
+            Sistema de Facturación
+        </MudText>
+
+        <EditForm Model="@loginRequest" OnValidSubmit="HandleLogin">
+            <DataAnnotationsValidator />
+            
+            <MudTextField @bind-Value="loginRequest.Ruc"
+                          Label="RUC"
+                          Variant="Variant.Outlined"
+                          Margin="Margin.Dense"
+                          For="@(() => loginRequest.Ruc)"
+                          Adornment="Adornment.Start"
+                          AdornmentIcon="@Icons.Material.Filled.Business" />
+
+            <MudTextField @bind-Value="loginRequest.UserName"
+                          Label="Usuario"
+                          Variant="Variant.Outlined"
+                          Margin="Margin.Dense"
+                          For="@(() => loginRequest.UserName)"
+                          Adornment="Adornment.Start"
+                          AdornmentIcon="@Icons.Material.Filled.Person"
+                          Class="mt-4" />
+
+            <MudTextField @bind-Value="loginRequest.Password"
+                          Label="Contraseña"
+                          Variant="Variant.Outlined"
+                          Margin="Margin.Dense"
+                          InputType="InputType.Password"
+                          For="@(() => loginRequest.Password)"
+                          Adornment="Adornment.Start"
+                          AdornmentIcon="@Icons.Material.Filled.Lock"
+                          Class="mt-4" />
+
+            <MudCheckBox @bind-Value="loginRequest.Recordad" 
+                         Label="Recordarme" 
+                         Color="Color.Primary"
+                         Class="mt-2" />
+
+            <MudButton ButtonType="ButtonType.Submit"
+                       Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       FullWidth="true"
+                       Size="Size.Large"
+                       Class="mt-6"
+                       Disabled="@cargando">
+                @if (cargando)
+                {
+                    <MudProgressCircular Size="Size.Small" Indeterminate="true" Class="mr-2" />
+                    <MudText>Ingresando...</MudText>
+                }
+                else
+                {
+                    <MudText>Iniciar Sesión</MudText>
+                }
+            </MudButton>
+        </EditForm>
+    </MudPaper>
+</MudContainer>
+
+@code {
+    private LoginRequest loginRequest = new();
+    private bool cargando = false;
+
+    private async Task HandleLogin()
+    {
+        cargando = true;
+
+        var resultado = await AuthService.Login(loginRequest);
+
+        if (resultado != null)
+        {
+            Snackbar.Add($"Bienvenido!", Severity.Success);
+            Navigation.NavigateTo("/"); // Redirige al dashboard
+        }
+        else
+        {
+            Snackbar.Add("Credenciales incorrectas", Severity.Error);
+        }
+
+        cargando = false;
+    }
+}

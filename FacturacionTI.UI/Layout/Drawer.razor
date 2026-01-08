@@ -1,0 +1,49 @@
+﻿<MudDrawer @bind-Open="@IsOpen" Elevation="2" ClipMode="DrawerClipMode.Always">
+    <MudDrawerHeader>
+        <MudText Typo="Typo.h5" Class="mt-1">Facturación TI</MudText>
+    </MudDrawerHeader>
+
+    <MudNavMenu>
+        <MudNavLink Href="/" Icon="@Icons.Material.Filled.Dashboard" Match="NavLinkMatch.All">
+            Dashboard
+        </MudNavLink>
+
+        <MudNavGroup Title="Ventas" Icon="@Icons.Material.Filled.ShoppingCart" Expanded="true">
+            <MudNavLink Href="/facturas" Icon="@Icons.Material.Filled.Receipt">
+                Facturas
+            </MudNavLink>
+            <MudNavLink Href="/cotizaciones" Icon="@Icons.Material.Filled.RequestQuote">
+                Cotizaciones
+            </MudNavLink>
+            <MudNavLink Href="/notas-credito" Icon="@Icons.Material.Filled.CreditCard">
+                Notas de Crédito
+            </MudNavLink>
+        </MudNavGroup>
+
+        <MudNavGroup Title="Gestión" Icon="@Icons.Material.Filled.BusinessCenter">
+            <MudNavLink Href="/clientes" Icon="@Icons.Material.Filled.People">
+                Clientes
+            </MudNavLink>
+            <MudNavLink Href="/productos" Icon="@Icons.Material.Filled.Inventory">
+                Productos
+            </MudNavLink>
+            <MudNavLink Href="/proveedores" Icon="@Icons.Material.Filled.LocalShipping">
+                Proveedores
+            </MudNavLink>
+        </MudNavGroup>
+
+        <MudDivider Class="my-2" />
+
+        <MudNavLink Href="/reportes" Icon="@Icons.Material.Filled.BarChart">
+            Reportes
+        </MudNavLink>
+        <MudNavLink Href="/configuracion" Icon="@Icons.Material.Filled.Settings">
+            Configuración
+        </MudNavLink>
+    </MudNavMenu>
+</MudDrawer>
+
+@code {
+    [Parameter] public bool IsOpen { get; set; }  // ⭐ Parámetro
+    [Parameter] public EventCallback<bool> IsOpenChanged { get; set; }  // ⭐ Two-way binding
+}

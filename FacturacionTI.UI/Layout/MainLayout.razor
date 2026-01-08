@@ -1,16 +1,39 @@
 ﻿@inherits LayoutComponentBase
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
+<MudThemeProvider />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
 
-        <article class="content px-4">
+<MudLayout>
+
+    <!-- Barra Superior -->
+    <Appbar OnMenuToggle="@ToggleDrawer" />
+
+    <!-- Menú Lateral -->
+    <Drawer IsOpen="@_drawerOpen" />
+
+    <!-- Contenido Principal -->
+    <MudMainContent>
+        <MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="my-4 px-4">
             @Body
-        </article>
-    </main>
-</div>
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
+
+@code {
+    private bool _drawerOpen = true;
+
+    private void ToggleDrawer()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+
+    private void Logout()
+    {
+        // Implementar logout
+        NavigationManager.NavigateTo("/logout", true);
+    }
+
+    [Inject] private NavigationManager NavigationManager { get; set; } = null!;
+}

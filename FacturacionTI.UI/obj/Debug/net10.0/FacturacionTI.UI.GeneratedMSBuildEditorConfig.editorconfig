@@ -5,6 +5,9 @@ build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.VerifyReferenceTrimCompatibility = 
 build_property.VerifyReferenceAotCompatibility = 
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudAllowedAttributeList = 
 build_property.TargetFramework = net10.0
 build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
@@ -32,8 +35,24 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Components/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcUmVkaXJlY3RUb0xvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Layout/Appbar.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEFwcGJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Layout/Drawer.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XERyYXdlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Layout/EmptyLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEVtcHR5TGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Pages/Auth/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Pages/Home.razor]
@@ -42,10 +61,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Pages/NotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90Rm91bmQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/_Imports.razor]
