@@ -14,6 +14,6 @@ namespace FacturacionTI.UI.Models.Auth
         [MinLength(6, ErrorMessage = "Mínimo 6 caracteres")]
         public string Password { get; set; } = string.Empty;
 
-        public bool Recordad { get; set; }
+        public bool Recordarme { get; set; }
     }
 }

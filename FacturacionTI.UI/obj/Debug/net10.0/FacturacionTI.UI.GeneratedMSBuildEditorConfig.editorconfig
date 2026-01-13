@@ -51,8 +51,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEVtcHR5TGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Pages/Auth/ForgotPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxGb3Jnb3RQYXNzd29yZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Pages/Auth/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Pages/Auth/ResetPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxSZXNldFBhc3N3b3JkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Proyect_Visual/BLAZOR/FacturacionTI.Frontend/FacturacionTI.UI/Pages/Home.razor]

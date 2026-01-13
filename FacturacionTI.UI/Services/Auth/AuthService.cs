@@ -62,5 +62,32 @@ namespace FacturacionTI.UI.Services.Auth
         {
             return await _jsruntime.InvokeAsync<string>("localStorage.getItem", TOKEN_KEY);
         }
+        public async Task<string> ForgotPasswordRequest(ForgotPasswordRequest request)
+        {
+            var response = await _httpClient.PostAsJsonAsync("api/Auth/forgot-password", request);
+
+            if (!response.IsSuccessStatusCode)
+                return null!;
+
+            var resetResponse = await response.Content.ReadFromJsonAsync<BaseResponse<string>>();
+
+            if (resetResponse == null)
+                return null!;
+
+            return resetResponse.Message;
+        }
+
+        public async Task<string> ResetPassword(ResetPasswordRequest request)
+        {
+            var response =await _httpClient.PostAsJsonAsync("api/Auth/reset-password", request);
+            if (!response.IsSuccessStatusCode)
+                return null!;
+
+            var resetResponse = await response.Content.ReadFromJsonAsync<BaseResponse<string>>();
+            if (resetResponse == null)
+                return null!;
+
+            return resetResponse.Message;
+        }
     }
 }

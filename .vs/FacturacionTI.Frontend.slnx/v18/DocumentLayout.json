@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|f:\\proyect_visual\\blazor\\facturacionti.frontend\\facturacionti.ui\\pages\\auth\\resetpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|solutionrelative:facturacionti.ui\\pages\\auth\\resetpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|f:\\proyect_visual\\blazor\\facturacionti.frontend\\facturacionti.ui\\layout\\emptylayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|solutionrelative:facturacionti.ui\\layout\\emptylayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|f:\\proyect_visual\\blazor\\facturacionti.frontend\\facturacionti.ui\\pages\\auth\\forgotpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|solutionrelative:facturacionti.ui\\pages\\auth\\forgotpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|f:\\proyect_visual\\blazor\\facturacionti.frontend\\facturacionti.ui\\pages\\auth\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|solutionrelative:facturacionti.ui\\pages\\auth\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|f:\\proyect_visual\\blazor\\facturacionti.frontend\\facturacionti.ui\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|solutionrelative:facturacionti.ui\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|f:\\proyect_visual\\blazor\\facturacionti.frontend\\facturacionti.ui\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|solutionrelative:facturacionti.ui\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|f:\\proyect_visual\\blazor\\facturacionti.frontend\\facturacionti.ui\\layout\\appbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|solutionrelative:facturacionti.ui\\layout\\appbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|f:\\proyect_visual\\blazor\\facturacionti.frontend\\facturacionti.ui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|solutionrelative:facturacionti.ui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|f:\\proyect_visual\\blazor\\facturacionti.frontend\\facturacionti.ui\\layout\\drawer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|solutionrelative:facturacionti.ui\\layout\\drawer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|f:\\proyect_visual\\blazor\\facturacionti.frontend\\facturacionti.ui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|solutionrelative:facturacionti.ui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|f:\\proyect_visual\\blazor\\facturacionti.frontend\\facturacionti.ui\\services\\auth\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|solutionrelative:facturacionti.ui\\services\\auth\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|f:\\proyect_visual\\blazor\\facturacionti.frontend\\facturacionti.ui\\components\\shared\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D5810213-4630-1A6E-851E-D5AAB579C73B}|FacturacionTI.UI\\FacturacionTI.UI.csproj|solutionrelative:facturacionti.ui\\components\\shared\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,119 +74,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Login.razor",
               "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Pages\\Auth\\Login.razor",
               "RelativeDocumentMoniker": "FacturacionTI.UI\\Pages\\Auth\\Login.razor",
               "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Pages\\Auth\\Login.razor",
               "RelativeToolTip": "FacturacionTI.UI\\Pages\\Auth\\Login.razor",
-              "ViewState": "AgIAAEIAAAAAAAAAAADwv1UAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-08T00:03:53.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Drawer.razor",
-              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Layout\\Drawer.razor",
-              "RelativeDocumentMoniker": "FacturacionTI.UI\\Layout\\Drawer.razor",
-              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Layout\\Drawer.razor",
-              "RelativeToolTip": "FacturacionTI.UI\\Layout\\Drawer.razor",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAjwC4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-07T23:37:04.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Appbar.razor",
-              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Layout\\Appbar.razor",
-              "RelativeDocumentMoniker": "FacturacionTI.UI\\Layout\\Appbar.razor",
-              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Layout\\Appbar.razor",
-              "RelativeToolTip": "FacturacionTI.UI\\Layout\\Appbar.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAgwB8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-07T23:36:45.199Z",
+              "WhenOpened": "2026-01-13T03:51:10.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "FacturacionTI.UI\\Layout\\MainLayout.razor",
-              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "FacturacionTI.UI\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-07T23:36:28.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CustomAuthStateProvider.cs",
-              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Services\\Auth\\CustomAuthStateProvider.cs",
-              "RelativeDocumentMoniker": "FacturacionTI.UI\\Services\\Auth\\CustomAuthStateProvider.cs",
-              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Services\\Auth\\CustomAuthStateProvider.cs",
-              "RelativeToolTip": "FacturacionTI.UI\\Services\\Auth\\CustomAuthStateProvider.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAArwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T23:29:43.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RedirectToLogin.razor",
-              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Components\\Shared\\RedirectToLogin.razor",
-              "RelativeDocumentMoniker": "FacturacionTI.UI\\Components\\Shared\\RedirectToLogin.razor",
-              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Components\\Shared\\RedirectToLogin.razor",
-              "RelativeToolTip": "FacturacionTI.UI\\Components\\Shared\\RedirectToLogin.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-07T23:28:53.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AuthService.cs",
               "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Services\\Auth\\AuthService.cs",
               "RelativeDocumentMoniker": "FacturacionTI.UI\\Services\\Auth\\AuthService.cs",
               "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Services\\Auth\\AuthService.cs",
               "RelativeToolTip": "FacturacionTI.UI\\Services\\Auth\\AuthService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAQwFUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T23:22:57.328Z",
+              "WhenOpened": "2026-01-13T03:02:45.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Home.razor",
-              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "FacturacionTI.UI\\Pages\\Home.razor",
-              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Pages\\Home.razor",
-              "RelativeToolTip": "FacturacionTI.UI\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ResetPassword.razor",
+              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Pages\\Auth\\ResetPassword.razor",
+              "RelativeDocumentMoniker": "FacturacionTI.UI\\Pages\\Auth\\ResetPassword.razor",
+              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Pages\\Auth\\ResetPassword.razor",
+              "RelativeToolTip": "FacturacionTI.UI\\Pages\\Auth\\ResetPassword.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-07T23:27:20.909Z",
+              "WhenOpened": "2026-01-13T02:59:20.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmptyLayout.razor",
+              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Layout\\EmptyLayout.razor",
+              "RelativeDocumentMoniker": "FacturacionTI.UI\\Layout\\EmptyLayout.razor",
+              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Layout\\EmptyLayout.razor",
+              "RelativeToolTip": "FacturacionTI.UI\\Layout\\EmptyLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T02:54:32.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "App.razor",
-              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\App.razor",
-              "RelativeDocumentMoniker": "FacturacionTI.UI\\App.razor",
-              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\App.razor",
-              "RelativeToolTip": "FacturacionTI.UI\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Title": "ForgotPassword.razor",
+              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Pages\\Auth\\ForgotPassword.razor",
+              "RelativeDocumentMoniker": "FacturacionTI.UI\\Pages\\Auth\\ForgotPassword.razor",
+              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Frontend\\FacturacionTI.UI\\Pages\\Auth\\ForgotPassword.razor",
+              "RelativeToolTip": "FacturacionTI.UI\\Pages\\Auth\\ForgotPassword.razor",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-07T23:26:41.751Z",
+              "WhenOpened": "2026-01-13T02:41:46.026Z",
               "EditorCaption": ""
             }
           ]

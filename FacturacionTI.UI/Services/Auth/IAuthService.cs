@@ -8,5 +8,7 @@ namespace FacturacionTI.UI.Services.Auth
         Task Logout();
         Task<string> GetToken();
         //Task<UsuarioDto> GetUsuarioActual();
+        Task<string> ForgotPasswordRequest(ForgotPasswordRequest request);
+        Task<string> ResetPassword(ResetPasswordRequest request);
     }
 }

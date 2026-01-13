@@ -5,64 +5,74 @@
 @inject ISnackbar Snackbar
 
 <MudContainer MaxWidth="MaxWidth.Small" Class="d-flex align-center justify-center" Style="min-height: 100vh;">
-    <MudPaper Elevation="4" Class="pa-8" Style="width: 100%;">
-        <MudText Typo="Typo.h4" Align="Align.Center" Class="mb-6">
-            <MudIcon Icon="@Icons.Material.Filled.Receipt" Size="Size.Large" Class="mr-2" />
-            Sistema de Facturación
-        </MudText>
+    <MudPaper Elevation="8" Class="pa-8" Style="width: 100%; max-width: 450px;">
 
+        <!-- Título -->
+        <MudStack Spacing="2" AlignItems="AlignItems.Center" Class="mb-8">
+            <MudIcon Icon="@Icons.Material.Filled.Receipt" Size="Size.Large" Color="Color.Primary" />
+            <MudText Typo="Typo.h4" Align="Align.Center">Sistema de Facturación</MudText>
+        </MudStack>
+
+        <!-- Formulario -->
         <EditForm Model="@loginRequest" OnValidSubmit="HandleLogin">
             <DataAnnotationsValidator />
-            
-            <MudTextField @bind-Value="loginRequest.Ruc"
-                          Label="RUC"
-                          Variant="Variant.Outlined"
-                          Margin="Margin.Dense"
-                          For="@(() => loginRequest.Ruc)"
-                          Adornment="Adornment.Start"
-                          AdornmentIcon="@Icons.Material.Filled.Business" />
 
-            <MudTextField @bind-Value="loginRequest.UserName"
-                          Label="Usuario"
-                          Variant="Variant.Outlined"
-                          Margin="Margin.Dense"
-                          For="@(() => loginRequest.UserName)"
-                          Adornment="Adornment.Start"
-                          AdornmentIcon="@Icons.Material.Filled.Person"
-                          Class="mt-4" />
+            <MudStack Spacing="4">
+                <!-- RUC -->
+                <MudTextField @bind-Value="loginRequest.Ruc"
+                              Label="RUC"
+                              Variant="Variant.Outlined"
+                              For="@(() => loginRequest.Ruc)"
+                              Adornment="Adornment.Start"
+                              AdornmentIcon="@Icons.Material.Filled.Business" />
 
-            <MudTextField @bind-Value="loginRequest.Password"
-                          Label="Contraseña"
-                          Variant="Variant.Outlined"
-                          Margin="Margin.Dense"
-                          InputType="InputType.Password"
-                          For="@(() => loginRequest.Password)"
-                          Adornment="Adornment.Start"
-                          AdornmentIcon="@Icons.Material.Filled.Lock"
-                          Class="mt-4" />
+                <!-- Usuario -->
+                <MudTextField @bind-Value="loginRequest.UserName"
+                              Label="Usuario"
+                              Variant="Variant.Outlined"
+                              For="@(() => loginRequest.UserName)"
+                              Adornment="Adornment.Start"
+                              AdornmentIcon="@Icons.Material.Filled.Person" />
 
-            <MudCheckBox @bind-Value="loginRequest.Recordad" 
-                         Label="Recordarme" 
-                         Color="Color.Primary"
-                         Class="mt-2" />
+                <!-- Contraseña -->
+                <MudTextField @bind-Value="loginRequest.Password"
+                              Label="Contraseña"
+                              Variant="Variant.Outlined"
+                              InputType="InputType.Password"
+                              For="@(() => loginRequest.Password)"
+                              Adornment="Adornment.Start"
+                              AdornmentIcon="@Icons.Material.Filled.Lock" />
 
-            <MudButton ButtonType="ButtonType.Submit"
-                       Variant="Variant.Filled"
-                       Color="Color.Primary"
-                       FullWidth="true"
-                       Size="Size.Large"
-                       Class="mt-6"
-                       Disabled="@cargando">
-                @if (cargando)
-                {
-                    <MudProgressCircular Size="Size.Small" Indeterminate="true" Class="mr-2" />
-                    <MudText>Ingresando...</MudText>
-                }
-                else
-                {
-                    <MudText>Iniciar Sesión</MudText>
-                }
-            </MudButton>
+                <!-- Recordarme y Olvidaste contraseña -->
+                <MudStack Row="true" Justify="Justify.SpaceBetween" AlignItems="AlignItems.Center">
+                    <MudCheckBox @bind-Value="loginRequest.Recordarme"
+                                 Label="Recordarme"
+                                 Color="Color.Primary"
+                                 Dense="true" />
+                    <MudLink Href="/forgot-password" Color="Color.Primary" Typo="Typo.body2">
+                        ¿Olvidaste tu contraseña?
+                    </MudLink>
+                </MudStack>
+
+                <!-- Botón -->
+                <MudButton ButtonType="ButtonType.Submit"
+                           Variant="Variant.Filled"
+                           Color="Color.Primary"
+                           FullWidth="true"
+                           Size="Size.Large"
+                           Disabled="@cargando">
+                    @if (cargando)
+                    {
+                        <MudProgressCircular Size="Size.Small" Indeterminate="true" Class="mr-2" />
+                        <span>Ingresando...</span>
+                    }
+                    else
+                    {
+                        <span>Iniciar Sesión</span>
+                    }
+                </MudButton>
+            </MudStack>
+
         </EditForm>
     </MudPaper>
 </MudContainer>

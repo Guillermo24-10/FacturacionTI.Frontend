@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "FacturacionTI.UI",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-SY4ImUzO5xB6wrSOoOD/U2NvaN7j2ZppFXCTL1HadOY=",
+    "hash": "sha256-LtjUOrNrYlRefkOzC1TH/BT6m3KT2nTMLPXq4N7wD7k=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.cs8mcre4gh.js"
@@ -1084,15 +1084,15 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "FacturacionTI.UI.wasm",
-        "name": "FacturacionTI.UI.zh3gqiq65f.wasm",
-        "integrity": "sha256-SYh8ycCLCz/7oqEZF4qTGsrNBE1SZQR5zaLvxW0ORZk="
+        "name": "FacturacionTI.UI.ee59tahd93.wasm",
+        "integrity": "sha256-aoeJKoaRQpa8kKAXoZq/OE0rUjo1ZnVeraPAbv1GSM8="
       }
     ],
     "pdb": [
       {
         "virtualPath": "FacturacionTI.UI.pdb",
-        "name": "FacturacionTI.UI.tcxe1sm52r.pdb",
-        "integrity": "sha256-oy7xB8vk/GWxKZCfRDL/tutzTbRDHNFbpdyJN3dt98o="
+        "name": "FacturacionTI.UI.4kzf02cfue.pdb",
+        "integrity": "sha256-PNbOkhZhwAS4qoiRIrvD5Dp8dQBEzW13/n9+05QEXIE="
       }
     ],
     "libraryInitializers": [
